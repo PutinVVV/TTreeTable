@@ -31,7 +31,7 @@
     <ClCompile Include="test_TTableSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test_TTreeTable.cpp">
+    <ClCompile Include="test_THash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

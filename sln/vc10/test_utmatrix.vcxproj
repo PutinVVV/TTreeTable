@@ -106,12 +106,12 @@
   <ItemGroup>
     <ClCompile Include="..\..\test\test_main.cpp" />
     <ClCompile Include="..\..\test\test_tvector.cpp" />
+    <ClCompile Include="test_THash.cpp" />
     <ClCompile Include="test_TMonom.cpp" />
     <ClCompile Include="test_TNode.cpp" />
     <ClCompile Include="test_TPolynom.cpp" />
     <ClCompile Include="test_TTable.cpp" />
     <ClCompile Include="test_TTableSort.cpp" />
-    <ClCompile Include="test_TTreeTable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

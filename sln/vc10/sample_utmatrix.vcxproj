@@ -96,6 +96,9 @@
     <ClInclude Include="..\..\include\tlist.h" />
     <ClInclude Include="..\..\include\TQueue.h" />
     <ClInclude Include="..\..\include\TVector.h" />
+    <ClInclude Include="ITable.h" />
+    <ClInclude Include="THashTable.h" />
+    <ClInclude Include="THashTableNode.h" />
     <ClInclude Include="TMonom.h" />
     <ClInclude Include="TNode.h" />
     <ClInclude Include="TPolynom.h" />

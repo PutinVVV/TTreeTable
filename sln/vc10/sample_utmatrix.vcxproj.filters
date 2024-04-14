@@ -40,6 +40,15 @@
     <ClInclude Include="..\..\include\TQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="THashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THashTableNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="testing.cpp">

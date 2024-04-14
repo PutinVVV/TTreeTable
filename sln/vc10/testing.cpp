@@ -2,22 +2,53 @@
 #include "TTable.h"
 #include "TTreeTable.h"
 #include "TTableSort.h"
+#include "THashTable.h"
+#include <iostream>
 
 int main()
 {
-	TTreeNode<int, float> w(4, 5);
-	TTreeTable<int, float> q;
-	q.Add(8, 8);
-	q.Add(4, 4);
-	q.Add(12, 12);
-	q.Add(2, 2);
-	q.Add(10, 10);
-	q.Add(6, 6);
-	q.Add(14, 14);
-	int k = 14;
-	auto a= q.Find(k);
-	cout << q;
-	return 0;
+
+
+
+		THashTable<int, char> table(100);
+
+
+		for (int i = 0; i < 50; i++) {
+			table.Add(i, 'A' + i);
+		}
+
+
+		for (int i = 0; i < 50; i++) 
+		{
+			char value = table.Find(i);
+			cout << "Key: " << i << ", Value: " << value << '\n';
+		}
+
+		return 0;
+	
+
+
+
+
+
+
+
+
+
+
+	//TTreeNode<int, float> w(4, 5);
+	//TTreeTable<int, float> q;
+	//q.Add(8, 8);
+	//q.Add(4, 4);
+	//q.Add(12, 12);
+	//q.Add(2, 2);
+	//q.Add(10, 10);
+	//q.Add(6, 6);
+	//q.Add(14, 14);
+	//int k = 14;
+	//auto a= q.Find(k);
+	//cout << q;
+	//return 0;
 
 
 
